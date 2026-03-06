@@ -13,7 +13,7 @@ def confirmacao(proficao,nome,email,senha,telefone,idade,sexo,endereco,cro): #cr
     verificacao = input("As informações estão corretas? ").lower()
     if(verificacao in positivo):
         if (proficao == "beneficiario" ):
-            usuario = {
+            usuario = { #criando um dicionario para manipulaçao e armazenamendo de dados
                 'Nome':nome,
                 'Idade': idade,
                 'Sexo':sexo,
